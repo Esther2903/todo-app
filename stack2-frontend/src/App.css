@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App {
+  align-items: center;
+  background-image: url('./safarie.jpg');
+  height: 640px;
+  color: white; 
+  overflow: hidden;
+}
+
+h1{
+  text-align: center;
+}
+
+.App-wrapper{
+  background-color: rgb(46, 54, 216);
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px rgb(27 27 27);
+}
+
+.App-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.App-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+
+.App-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.App-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+
+.App-input-item input:focus{
+  outline: 2px solid black;
+}
+
+.primaryBtn{
+  background-color: rgb(0, 230, 122);
+  color: white;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.primaryBtn:hover{
+  background-color: rgb(4, 196, 106);
+}
+
+.secondaryBtn{
+  background-color: rgb(127, 130, 129);
+  color: white;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;  
+}
+
+.active {
+  background-color: rgb(0, 230, 122);
+}
+
+.btn-area{
+  margin-bottom: 15px;
+}
+
+.App-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-list-item {
+  background-color: rgb(127, 130, 129);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px rgb(43, 42, 42);
+}
+
+.App-list-item h3{
+  font-size: 25px;
+  color: rgb(0, 230, 122);
+  font-weight: bold;
+  margin: 0;
+}
+
+.App-list-item p{
+  font-size: 14px;
+  color: rgb(250, 249, 249);
+  margin-top: 8px;
+}
+
+.icon{
+  font-size: 35px;
+  cursor: pointer;
+}
+.icon2{
+  margin-left: 11px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  color: red;
+}
+.icon2:hover{
+  color: blue;
+}
+
+.check-icon{
+  font-size: 30px;
+  margin-left: 10px;
+  color: rgb(0, 230, 122);
+  cursor: pointer;
+}
+
+.check-icon:hover{
+  color: rgb(4, 196, 106);
+}
